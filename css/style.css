@@ -1,0 +1,385 @@
+/*Start Include Font Family*/
+@font-face{
+	font-family: Poppins-SemiBold;
+	src: url(../fonts/poppins/Poppins-SemiBold.otf);
+}
+@font-face{
+	font-family: Poppins-Regular;
+	src: url(../fonts/poppins/Poppins-Regular.otf);
+}
+@font-face{
+	font-family: Poppins-Medium;
+	src: url(../fonts/poppins/Poppins-Medium.otf);
+}
+@font-face{
+	font-family: Poppins-Bold;
+	src: url(../fonts/poppins/Poppins-Bold.otf);
+}
+/*End Include Font Family*/
+
+
+/*Reauseable Block*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body h1{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins-SemiBold;
+	font-weight: 600;
+}
+body p{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins-Regular;
+	font-weight: 400;
+}
+body .btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+/*End Reauseable Block*/
+/*Header Start*/
+header{
+	background-color: #daac00;
+}
+.nav-link{
+	font-family: Poppins-Regular;
+	font-weight: 400;
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #ffffff !important;
+	transition: all ease 0.4s;
+}
+.nav-link:hover{
+	color: #313243 !important;
+}
+header form input {
+	background-color: #fcc302 !important;
+	border: none !important;
+	color: #ffffff !important;
+}
+header form input::placeholder {
+  color: #ffffff !important;
+  font-size: 20px;
+}
+header form button{
+	background-color: #00bec9 !important;
+	border: none !important;
+	color: #ffffff !important;
+}
+header form button:hover{
+	background: transparent !important;
+}
+.form-control:focus{
+	outline: none;
+	box-shadow: none;
+}
+/*Header End*/
+/*Banner Start*/
+.banner{
+	background-color: #fcc302;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.b-text{
+	padding-top: 75px;
+}
+.b-text h1{
+	margin-right: 40px;
+	font-size: 50px;
+	color: #ffffff;
+}
+.b-text p{
+	margin-top: 40px;
+	font-size: 28px;
+	color: #ffffff;
+}
+.b-text .btn-1{
+	margin-top: 40px;
+	background-color: #00bec9;
+	color: #ffffff;
+	transition: all ease 0.3s;
+}
+.b-text .btn-1:hover{
+	background: transparent;
+	border: 1px solid #ffffff;
+}
+.b-text .btn-2{
+	margin-left: 35px;
+	margin-top: 40px;
+	background: none;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	transition: all ease 0.3s;
+}
+.b-text .btn-2:hover{
+	background-color: #00bec9;
+	border: 0;
+}
+/*Banner End*/
+/*animal Start*/
+.animal{
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #ffffff;
+}
+.ani-text{
+	padding-top: 75px;
+}
+.ani-text h1{
+	margin-right: -1px;
+	font-size: 50px;
+	color: #313243;
+}
+.ani-text p{
+	margin-top: 40px;
+	font-size: 28px;
+	color: #313243;
+}
+.ani-text button{
+	margin-top: 40px;
+	background-color: #fcc302;
+	color: #ffffff;
+	transition: all ease 0.3s;
+}
+.ani-text button:hover{
+	background-color: #00bec9;
+	color: #ffffff;
+}
+.ani-img img{
+	width: 85%;
+}
+/*animal End*/
+/*Start Care*/
+.care{
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #fcc302;
+}
+.c-text{}
+.c-text h2{
+	font-family: Poppins-Bold;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ffffff;
+}
+.c-text p{
+	font-size: 33px;
+	color: #ffffff;
+}
+.care-1{
+	padding-top: 80px;
+}
+.c-img{}
+.c-img img{
+	transition: ease all 0.3s;
+}
+.c-img img:hover{
+	transform: scale(1.1);
+	filter: brightness(80%);
+}
+.c-content{
+	padding-top: 25px;
+}
+.c-content h1{
+	font-size: 37px;
+	color: #ffffff;
+}
+.c-content p{
+	padding-top: 25px;
+	font-size: 26px;
+	color: #ffffff;
+}
+/*End Care*/
+/*start Anilover*/
+.anilover-text{
+	text-align: right;
+}
+/*End Anilover*/
+/*Start Byedog*/
+.byedog button{
+	margin-top: 10px;
+	width: 160px;
+	background-color: #00bec9;
+	font-family: Poppins-SemiBold;
+	color: #ffffff;
+	border-radius: 30px;
+	transition: ease all 0.3s;
+}
+.byedog button:hover{
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+/*End Byedog*/
+/*Team Start*/
+.t-text h2{
+	color: #313243;
+}
+.t-text p{
+	color: #313243;
+}
+.t-content h2{
+	margin-top: 30px;
+	font-family: Poppins-Bold;
+	font-weight: 700;
+	font-size: 28px;
+	color: #313243;
+}
+.t-content p{
+	font-size: 25px;
+	color: #313243;
+}
+.t-icon ul li a i{
+	width: 45px;
+	height: 45px;
+	background-color: #daac00;
+	font-size: 25px;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	transition: all ease 0.4s;
+}
+.t-icon ul li a i:hover{
+	transform: rotate(360deg);
+	background-color: #000000;
+}
+/*Team End*/
+/*client Start*/
+.client{
+	background: url(../assets/doctor-banner.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.bg-overlay{
+	width: 100%;
+	background-color: rgba(243, 195, 34, 0.7);
+}
+.client-text{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+.client-text p i{
+	font-size: 80px;
+	color: #ffffff;
+}
+.client-text h3{
+	margin-top: 50px;
+	font-family: Poppins-Medium;
+	font-weight: 500;
+	font-size: 40px;
+	color: #ffffff;
+}
+.client-text h2{
+	font-family: Poppins-Bold;
+	font-weight: 700;
+	font-size: 37px;
+	color: #ffffff;
+}
+/*client End*/
+/*Blog Start*/
+.b-content{
+	margin-top: 80px;
+}
+.b-content img{
+	transition: ease all 0.3s;
+}
+.b-content img:hover{
+	transform: scale(1.1);
+	filter: brightness(80%);
+}
+.card-body h1{
+	font-size: 25px;
+	color: #313243;
+}
+.card-body small{
+	font-family: Poppins-Regular;
+	font-weight: 400;
+	color: #00bec9;
+}
+.card-body p{
+	margin: 25px 0 25px;
+	font-size: 16px;
+	color: #313243;
+}
+.card-body a{
+	font-family: Poppins-Medium;
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+	color: #00bec9;
+	transition: ease all 0.3s;
+}
+.card-body a:hover{
+	color: #313243;
+}
+/*Blog End*/
+/*Footer Start*/
+footer{
+	background-color: #343434;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.a-head h1{
+	font-size: 37px;
+	color: #ffffff;
+}
+.a-link{
+	margin-top: 35px;
+}
+.a-link a{
+	margin-top: 10px;
+	display: block;
+	text-decoration: none;
+	font-family: Poppins-Regular;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+}
+.c-head h1{
+	font-size: 37px;
+	color: #ffffff;
+	text-align: right;
+}
+.c-head p{
+	font-size: 18px;
+	color: #ffffff;
+	text-align: right;
+}
+.f-box{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.f-box input{
+	width: 100%;
+	height: 55px;
+	background-color: #daac00;
+	border: none;
+	transition: ease all 0.3s;
+}
+.f-box button{
+	width: 150px;
+	background-color: #00bec9;
+	font-size: 27px;
+	color: #ffffff;
+}
+.f-box button:hover{
+	color: #313243;
+}
+.f-icon{
+	text-align: right;
+}
+.f-icon ul li a i{
+	background-color: #ffffff;
+	color: #313243;
+	transition: ease all 0.4s;
+}
+.f-icon ul li a i:hover{
+	transform: rotate(360deg);
+	background-color: #00bec9;
+}
+/*Footer End*/
